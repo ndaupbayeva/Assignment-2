@@ -43,7 +43,6 @@ public class Person implements Payable, Comparable<Person>{
         return "Student";
     }
 
-    @Override
     public double getPaymentAmount() {
         return 0.00;
     }

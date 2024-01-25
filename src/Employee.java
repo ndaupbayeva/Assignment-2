@@ -24,7 +24,6 @@ public class Employee extends Person{
         this.salary = salary;
     }
 
-    @Override
     public double getPaymentAmount(){
         return getSalary();
     }
