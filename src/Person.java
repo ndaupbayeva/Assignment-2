@@ -1,5 +1,5 @@
 public class Person implements Payable, Comparable<Person>{
-    private static int counterID = 0;
+    private static int counterID = 0; //Counter of IDs
 
     private int id;
     private String name;
@@ -37,7 +37,7 @@ public class Person implements Payable, Comparable<Person>{
 
     public String toString(){
         return getId() + ". " + getName() + " " + getSurname();
-    }
+    } //collect all data to one string
 
     public String getPosition(){
         return "Student";

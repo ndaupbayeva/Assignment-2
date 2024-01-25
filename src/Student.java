@@ -1,13 +1,13 @@
 public class Student extends Person {
-    private double gpa;
+    private double gpa; //gpa is only unique variable for this class
 
     public Student(String name, String surname, double gpa){
-        super(name, surname);
+        super(name, surname); //inherited variables
         this.gpa = gpa;
     }
 
     public String toString(){
-        return "Student: " + super.toString();
+        return "Student: " + super.toString(); //inherited function
     }
 
     public double getGpa(){

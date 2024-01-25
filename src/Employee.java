@@ -1,6 +1,6 @@
 public class Employee extends Person{
     private String position;
-    private double salary;
+    private double salary; //adding only two unique variables
 
     public Employee(String name, String surname, String position, double salary){
         super(name, surname); //Taking some data from person class
@@ -9,7 +9,7 @@ public class Employee extends Person{
     }
 
     public String toString(){
-        return "Employee: " + super.toString();
+        return "Employee: " + super.toString(); //inherited fu
     }
 
     public String getPosition(){
